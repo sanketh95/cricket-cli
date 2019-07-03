@@ -22,7 +22,7 @@ def print_teamscore(sc):
 	innings = scores1[0]['inning_num'] if scores1 else ''
 
 	print 'Innings{0}{1}{2}{3}'.format(s(7),team1, s(11-len(team1)), team2)
-	print_line(51)
+	print_line(53)
 	print '{0}{1}{2}{3}{4}'.format(innings, s(14-len(innings)), score1, s(11-len(score1)), score2)
 
 	print_line(53)
